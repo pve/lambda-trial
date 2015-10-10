@@ -7,3 +7,4 @@ exports.handler = function(event, context) {
     console.log('awesome = ' + event.key3);
     context.done(null, 'Hello World');  // SUCCESS with message
 };
+
