@@ -1,7 +1,7 @@
 console.log('Loading event');
 console.log('Loading event again');
 
-exports.handlers = function(event, context) {
+exports.handler = function(event, context) {
     console.log('Who = ' + event.key1);
     console.log('Who = ' + event.key1);
     console.log('is = ' + event.key2);
